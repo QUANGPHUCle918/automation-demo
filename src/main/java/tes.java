@@ -14,7 +14,7 @@ public class tes {
         Thread.sleep(5000);
 
         //
-        WebElement email = dv.findElement(By.xpath("//input[@placeholder =\"Enter email\"]");
+        WebElement email = dv.findElement(By.xpath("//input[@placeholder =\"Enter email\"]"));
         email.sendKeys("derpro@gmail.com");
         Thread.sleep(3000);
         email.clear();
